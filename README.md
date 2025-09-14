@@ -13,8 +13,7 @@ Project ini adalah RESTful API berbasis **Laravel** untuk manajemen Todo List de
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/laravel-todo-api.git
-cd laravel-todo-api
+git clone https://github.com/izasyafa/backend-task-management.git
 ````
 
 ### 2. Install Dependencies
