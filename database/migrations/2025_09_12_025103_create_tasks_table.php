@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->foreignId('user_id')->nullable()->constrained('users')->onDelete('set null');
-            $table->dateTime('due_date');
+            $table->date('due_date');
             $table->integer('time_tracked')->default(0);
             $table->enum('status', ['pending', 'open', 'in_progress', 'completed'])->default('pending');
             $table->enum('priority', ['low', 'medium', 'high'])->nullable();
